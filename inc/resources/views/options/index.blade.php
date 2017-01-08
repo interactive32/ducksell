@@ -43,7 +43,6 @@
                                     <li class="@if(isset($_GET['section']) && $_GET['section'] == 'mail'){{ 'active' }}@endif"><a data-toggle="tab" href="#tab-2">{{ trans('app.mail_setup') }}</a></li>
                                     <li class="@if(isset($_GET['section']) && $_GET['section'] == 'templates'){{ 'active' }}@endif"><a data-toggle="tab" href="#tab-3">{{ trans('app.mail_templates') }}</a></li>
                                     <li class="@if(isset($_GET['section']) && $_GET['section'] == 'invoice'){{ 'active' }}@endif"><a data-toggle="tab" href="#tab-4">{{ trans('app.invoice') }}</a></li>
-                                    <li class="@if(isset($_GET['section']) && $_GET['section'] == 'license'){{ 'active' }}@endif"><a data-toggle="tab" href="#tab-5">{{ trans('app.script_info') }}</a></li>
                                 </ul>
                             </div>
                             @include('partials.form_errors')
@@ -185,20 +184,6 @@
                                         {!! Form::label('global_invoice-offset', trans('app.invoice_offset')) !!}
                                         {!! Form::text('global_invoice-offset', $options->where('key', 'global.invoice-offset')->first() ? $options->where('key', 'global.invoice-offset')->first()->value : 0, ['class' => 'form-control', 'required']) !!}
                                     </div>
-                                </div>
-                                <div class="tab-pane @if(isset($_GET['section']) && $_GET['section'] == 'license'){{ 'active' }}@endif" id="tab-5">
-                                    <div class="form-group">
-                                        {!! Form::label('global_script-license', trans('app.license_number')) !!}
-                                        <span class="pull-right">
-                                                <a href="{{ url('options?section=license&checkforupdates=1') }}"><small>{{ trans('app.check_for_updates') }}</small></a>
-                                        </span>
-                                        {!! Form::text('global_script-license', $options->where('key', 'global.script-license')->first()->value, ['class' => 'form-control']) !!}
-                                    </div>
-                                    @if(isset($_GET['checkforupdates']))
-                                    <div class="form-group">
-                                        <iframe width="100%" height="400px" src="http://www.ducksell.com/callback/?license={{ urlencode($options->where('key', 'global.script-license')->first()->value).'&appver='.APP_VERSION.'&schemaver='.$options->where('key', 'global.schema')->first()->value.'&url='.url() }}" frameborder="0"></iframe>
-                                    </div>
-                                    @endif
                                 </div>
                             </div>
                         </div>

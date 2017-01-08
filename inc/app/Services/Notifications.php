@@ -20,16 +20,6 @@ class Notifications {
 
 		$notifications = [];
 
-		if(!config('global.script-license')) {
-
-			$notifications[] = [
-				'name' => trans('app.enter_license'),
-				'text' => trans('app.enter_license_text'),
-				'link' => url('options?section=license'),
-			];
-
-		}
-
 		if(!config('mail.driver')) {
 
 			$notifications[] = [
