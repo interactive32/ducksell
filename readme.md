@@ -8,8 +8,9 @@ The script automatically generates a unique, secure download URL for every purch
 
 Tracking cookies are seamlessly used so you can know exactly where your customers are coming from and how they interact and convert on your website. Check referrals in your reports and optimize your marketing efforts for best conversion rates.
 
-Example [frontend](http://www.ducksell.com/dummy/) - this represents your website
-Demo [backend](http://www.ducksell.com/demo/) - actual DuckSell script
+Demo:
+ - [frontend](http://www.ducksell.com/dummy/) - this represents your website
+ - [backend](http://www.ducksell.com/demo/) - actual DuckSell script
 
 
 
