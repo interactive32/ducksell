@@ -8,10 +8,11 @@ The script automatically generates a unique, secure download URL for every purch
 
 Tracking cookies are seamlessly used so you can know exactly where your customers are coming from and how they interact and convert on your website. Check referrals in your reports and optimize your marketing efforts for best conversion rates.
 
+Note: there is no frontend here, you must create your own website first (using templates or wordpress). Once you have your website you can create "buy now" buttons in DuckSell to link those two together.
+
 Demo:
  - [frontend](http://www.ducksell.com/dummy/) - this represents your website
- - [backend](http://www.ducksell.com/demo/) - actual DuckSell script
-
+ - [backend](http://www.ducksell.com/demo/) - the actual DuckSell script
 
 
 ## Main Features
