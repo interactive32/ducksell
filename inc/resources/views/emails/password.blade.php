@@ -1,0 +1,1 @@
+{{ trans('app.reset_password_text').' '.url('password/reset/'.$token) }}

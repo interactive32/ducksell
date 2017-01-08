@@ -1,0 +1,2 @@
+<script src="{{ asset ("/AdminLTE/plugins/jQueryUI/jquery-ui.min.js") }}" type="text/javascript"></script>
+<script src="{{ asset ("/AdminLTE/bootstrap/js/bootstrap.min.js") }}" type="text/javascript"></script>

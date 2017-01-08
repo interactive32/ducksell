@@ -1,0 +1,2 @@
+# prevent direct access and browsing here
+Deny from All
