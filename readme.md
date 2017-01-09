@@ -64,9 +64,9 @@ For more info about plugins see [http://www.ducksell.com/plugins](http://www.duc
 
  - Copy all files to your web server using your favorite FTP client
  - Create a database for DuckSell on your web server, as well as one MySQL user who has all privileges for accessing and modifying it. 
- - Import database from database/database.sql file using phpMyAdmin or similar database administration tool.
- - Configure database by opening inc/.env-sample in a text editor, fill in your information, and save it as inc/.env
- - Open terminal and go to inc/ folder. Run 'composer install' to install Laravel and all dependencies
+ - Import database from **database/database.sql** file using phpMyAdmin or similar database administration tool.
+ - Configure database by opening **inc/.env-sample** in a text editor, fill in your information, and save it as **inc/.env**
+ - Open terminal and go to **inc/** folder. Run `composer install` to install Laravel and all dependencies
  - Open the app in your browser and you should be able to see login screen
  - Login with admin@example.com / admin123
 
