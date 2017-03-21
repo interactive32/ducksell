@@ -34,7 +34,7 @@ Demo:
 
 ## Plugins
 
-For more info about plugins see [http://www.ducksell.com/plugins](http://www.ducksell.com/plugins)
+For more info about plugins see [http://www.ducksell.com/plugins.php](http://www.ducksell.com/plugins.php)
 
 - 2Checkout intergration
 - PayPal intergration
