@@ -2,7 +2,7 @@
 
 ## Quick Introduction
 
-[DuckSell](http://www.ducksell.com) is a Laravel (5.0) based PHP script that allows you to sell your digital products on your own website and deliver them securely to your customers. You can easily sell various types of downloads. For example: pdf, ebook, program, template, photo, music, video, audio, mp3 etc.  
+[DuckSell](http://www.ducksell.com) allows you to sell your digital products on your own website and deliver them securely to your customers. You can easily sell various types of downloads. For example: pdf, ebook, program, template, photo, music, video, audio, mp3 etc.  
 
 The script automatically generates a unique, secure download URL for every purchase which do not show the location of the download files on the server. For every purchase new license key is generated and it can be set to expire if required.  Unlimited products and multiple products per order are supported.
 
