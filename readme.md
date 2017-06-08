@@ -36,8 +36,8 @@ Demo:
 
 For more info about plugins see [http://www.ducksell.com/plugins.php](http://www.ducksell.com/plugins.php)
 
-- 2Checkout intergration
-- PayPal intergration
+- 2Checkout intergration (https://github.com/interactive32/TwoCheckout-DuckSell-Plugin)
+- PayPal intergration (https://github.com/interactive32/PayPal-DuckSell-Plugin)
 - BitPay integration
 - API plugin
 - Mailchimp intergration
