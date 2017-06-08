@@ -90,4 +90,4 @@ You can contribute by sending pull requests or opening an issue on GitHub.
 
 ### License
 
-DuckSell is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+DuckSell is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT). Copyright (c) [interactive32](http://interactive32.com).
