@@ -65,7 +65,7 @@ class Log extends BaseModel
 
             $TemplateService = new TemplateService();
             $TemplateService->loadSystemTemplate('generic');
-            $TemplateService->setVars(['content' => $message]);
+            $TemplateService->setVars(['content' => $message."\n".$data]);
 
             Util::sendMail(config('global.admin-mail'), trans('app.important'), $TemplateService->render());
         }
