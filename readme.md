@@ -61,7 +61,7 @@ For more info about plugins see [http://www.ducksell.com/plugins.php](http://www
 
 
 ## Installation Instructions
-Note: you can download compiled version with installer here https://goo.gl/qvRCqv
+Note: you can download compiled version with installer here https://goo.gl/EnP2T4
  - Copy all files to your web server using your favorite FTP client (or get the files directly on your server via git clone)
  - Create a database for DuckSell on your web server, as well as one MySQL user who has all privileges for accessing and modifying it. 
  - Import database from **database/database.sql** file using phpMyAdmin or similar database administration tool.
