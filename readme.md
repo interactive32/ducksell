@@ -10,11 +10,6 @@ Tracking cookies are seamlessly used so you can know exactly where your customer
 
 Note: there is no frontend here, you must create your own website first (using templates or wordpress). Once you have your website you can create "buy now" buttons in DuckSell to link those two together.
 
-Demo:
- - [frontend](http://www.ducksell.com/dummy/) - this represents your website
- - [backend](http://www.ducksell.com/demo/) - the actual DuckSell script
-
-
 ## Main Features
 
  - Simple to setup 
