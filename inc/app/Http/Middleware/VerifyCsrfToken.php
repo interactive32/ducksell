@@ -38,7 +38,7 @@ class VerifyCsrfToken extends BaseVerifier {
 			return false;
 		}
 
-		return StringUtils::equals($request->session()->token(), $token);
+		return $request->session()->token() == $token;
 	}
 
 }

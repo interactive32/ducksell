@@ -39,7 +39,7 @@
 					</div>
 					<div class="form-group">
 						{!! Form::label('product_id', trans('app.add_to_product')) !!}
-						{!! Form::select('product_id', ['' => ''] + \App\Models\Product::all()->lists('name', 'id'), null, ['class' => 'form-control']) !!}
+            {!! Form::select('product_id', ['' => ''] + \App\Models\Product::all()->lists('name', 'id')->toArray(), null, ['class' => 'form-control']) !!}
 					</div>
 				</div>
 				<div class="box-footer">
