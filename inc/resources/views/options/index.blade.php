@@ -11,7 +11,7 @@
                 </div>
                 <div class="box-body">
                     <strong>{{ trans('app.application_version') }}</strong>
-                    <p class="text-muted">{{ APP_VERSION }}</p>
+                    <p class="text-muted">{{ env('APP_VERSION') }}</p>
                     <strong>{{ trans('app.database_version') }}</strong>
                     <p class="text-muted">{{ $options->where('key', 'global.schema')->first()->value }}</p>
                     <strong>{{ trans('app.database_name') }}</strong>

@@ -15,9 +15,9 @@
 	<![endif]-->
 
 	<script src="{{ asset ("/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js") }}" type="text/javascript"></script>
-	<script src="{{ asset ("/js/common.js?".APP_VERSION) }}" type="text/javascript"></script>
+	<script src="{{ asset ("/js/common.js?".env('APP_VERSION')) }}" type="text/javascript"></script>
 
-	<link href="{{ asset('/css/app.css?'.APP_VERSION) }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('/css/app.css?'.env('APP_VERSION')) }}" rel="stylesheet" type="text/css" />
 
 	{!! $plugins_head or '' !!}
 </head>

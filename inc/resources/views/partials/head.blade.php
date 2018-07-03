@@ -19,13 +19,13 @@
 	<![endif]-->
 
 	<script src="{{ asset ("/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js") }}" type="text/javascript"></script>
-	<script src="{{ asset ("/js/common.js?".APP_VERSION) }}" type="text/javascript"></script>
+	<script src="{{ asset ("/js/common.js?".env('APP_VERSION')) }}" type="text/javascript"></script>
 
 	<link href="{{ asset("/AdminLTE/plugins/morris/morris.css") }}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset("/AdminLTE/plugins/jvectormap/jquery-jvectormap-1.2.2.css") }}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset("/css/bootstrap3-dialog/bootstrap-dialog.min.css") }}" rel="stylesheet" type="text/css" />
 
-	<link href="{{ asset('/css/app.css?'.APP_VERSION) }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('/css/app.css?'.env('APP_VERSION')) }}" rel="stylesheet" type="text/css" />
 
 	<script>
 		var php_baseURL = "{{ url('/') }}";
