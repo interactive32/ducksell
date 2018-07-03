@@ -49,7 +49,7 @@ For more info about plugins see [http://www.ducksell.com/plugins.php](http://www
 
  - Apache web server
  - MySQL database
- - PHP 5.4 or above
+ - PHP >= 5.5.9
  - mysqli, PDO, pdo_mysql, mcrypt, zip, openssl, mbstring and tokenizer PHP Extensions installed. Note that all of these are enabled in PHP by default on most servers.
  - Read and Write permissions for all files inside main folder.
  - SSH access and [Composer](https://getcomposer.org/) for installing Laravel and dependencies.
@@ -69,7 +69,7 @@ Note: you can download compiled version with installer here https://goo.gl/EnP2T
 
 ## Technology Used
 
- - PHP 5.4+, with Apache2 (see requirements)
+ - PHP 5.5.9+, with Apache2 (see requirements)
  - Laravel 5.1 Framework
  - Bootstrap v3 frontend
  - PDO Database Driver
