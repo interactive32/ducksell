@@ -1,5 +1,9 @@
 SET time_zone = "+00:00";
 
+# Create DB
+CREATE DATABASE IF NOT EXISTS `ducksell` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `ducksell`;
+
 /*!40101 SET NAMES utf8 */;
 
 DROP TABLE IF EXISTS `analytics`;
