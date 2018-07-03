@@ -70,7 +70,7 @@ Note: you can download compiled version with installer here https://goo.gl/EnP2T
 ## Technology Used
 
  - PHP 5.4+, with Apache2 (see requirements)
- - Laravel 5.0 Framework
+ - Laravel 5.1 Framework
  - Bootstrap v3 frontend
  - PDO Database Driver
  - SMTP or PHP mail() email adapters
