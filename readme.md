@@ -1,5 +1,9 @@
 # DuckSell
 
+<p align="center">
+[![Build Status](https://travis-ci.org/interactive32/ducksell.svg?branch=master)](https://travis-ci.org/interactive32/ducksell)
+</p>
+
 ## Quick Introduction
 
 [DuckSell](http://www.ducksell.com) allows you to sell your digital products on your own website and deliver them securely to your customers. You can easily sell various types of downloads. For example: pdf, ebook, program, template, photo, music, video, audio, mp3 etc.  
