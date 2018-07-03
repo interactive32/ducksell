@@ -18,6 +18,7 @@ if (!extension_loaded('PDO')) $errors[] = 'Error: PDO php extension not loaded.'
 if (!extension_loaded('pdo_mysql')) $errors[] = 'Error: pdo_mysql php extension not loaded.';
 if (!file_exists(__DIR__ . '/.htaccess')) $errors[] = 'Error: configuration file not found: '.__DIR__.'/.htaccess';
 if (!is_writable(__DIR__ . '/inc/app/Plugins')) $errors[] = 'Error: directory not writable: '.__DIR__.'/inc/app/Plugins';
+if (!is_writable(__DIR__ . '/inc/bootstrap/cache/')) $errors[] = 'Error: directory not writable: '.__DIR__.'/inc/bootstrap/cache';
 if (!is_writable(__DIR__ . '/inc/storage/')) $errors[] = 'Error: directory not writable: '.__DIR__.'/inc/storage/';
 if (!is_writable(__DIR__ . '/inc/storage/app')) $errors[] = 'Error: directory not writable: '.__DIR__.'/inc/storage/app';
 if (!is_writable(__DIR__ . '/inc/storage/files')) $errors[] = 'Error: directory not writable: '.__DIR__.'/inc/storage/files';
