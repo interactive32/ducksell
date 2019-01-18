@@ -10,7 +10,6 @@ $errors = [];
 
 if (version_compare(PHP_VERSION, '5.4') < 0) $errors[] = 'Error: PHP 5.4 or above is required. Please upgrade your PHP version.';
 if (!extension_loaded('zip')) $errors[] = 'Error: zip php extension not loaded.';
-if (!extension_loaded('mcrypt')) $errors[] = 'Error: mcrypt php extension not loaded.';
 if (!extension_loaded('openssl')) $errors[] = 'Error: openssl php extension not loaded.';
 if (!extension_loaded('mbstring')) $errors[] = 'Error: mbstring php extension not loaded.';
 if (!extension_loaded('tokenizer')) $errors[] = 'Error: tokenizer php extension not loaded.';
