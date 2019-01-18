@@ -2,5 +2,5 @@
     <div class="pull-right">
         <strong>Version {{ env('APP_VERSION') }}</strong>
     </div>
-    <strong>Powered by <a href="http://www.ducksell.com">DuckSell</a></strong>
+    <strong>Powered by <a href="https://github.com/interactive32/ducksell">DuckSell</a></strong>
 </footer>

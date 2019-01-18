@@ -4,7 +4,7 @@
 
 ## Quick Introduction
 
-[DuckSell](http://www.ducksell.com) allows you to sell your digital products on your own website and deliver them securely to your customers. You can easily sell various types of downloads. For example: pdf, ebook, program, template, photo, music, video, audio, mp3 etc.  
+[DuckSell] allows you to sell your digital products on your own website and deliver them securely to your customers. You can easily sell various types of downloads. For example: pdf, ebook, program, template, photo, music, video, audio, mp3 etc.  
 
 The script automatically generates a unique, secure download URL for every purchase which do not show the location of the download files on the server. For every purchase new license key is generated and it can be set to expire if required.  Unlimited products and multiple products per order are supported.
 
@@ -31,8 +31,6 @@ Note: there is no frontend here, you must create your own website first (using t
 
 ## Plugins
 
-For more info about plugins see [http://www.ducksell.com/plugins.php](http://www.ducksell.com/plugins.php)
-
 - 2Checkout intergration (https://github.com/interactive32/TwoCheckout-DuckSell-Plugin)
 - PayPal intergration (https://github.com/interactive32/PayPal-DuckSell-Plugin)
 - BitPay integration
@@ -58,7 +56,7 @@ For more info about plugins see [http://www.ducksell.com/plugins.php](http://www
 
 
 ## Installation Instructions
-Note: you can download compiled version with installer here https://goo.gl/EnP2T4
+
  - Copy all files to your web server using your favorite FTP client (or get the files directly on your server via git clone)
  - Create a database for DuckSell on your web server, as well as one MySQL user who has all privileges for accessing and modifying it. 
  - Import database from **database/database.sql** file using phpMyAdmin or similar database administration tool.
