@@ -79,9 +79,6 @@ Note: there is no frontend here, you must create your own website first (using t
  - Plugin system for additional functionality
  - This product includes GeoLite data created by MaxMind, available from [http://www.maxmind.com](http://www.maxmind.com)
 
-## Contributing
-
-You can contribute by sending pull requests or opening an issue on GitHub.
 
 ### License
 
