@@ -31,18 +31,21 @@ Note: there is no frontend here, you must create your own website first (using t
 
 ## Plugins
 
+Download [here](https://github.com/interactive32/ducksell_plugins):
+
 - 2Checkout intergration (https://github.com/interactive32/TwoCheckout-DuckSell-Plugin)
 - PayPal intergration (https://github.com/interactive32/PayPal-DuckSell-Plugin)
 - BitPay integration
 - API plugin
-- Mailchimp intergration
-- Free product
-- Download info
 - Customer support
+- Customer Files
 - Blue customer area
+- Free product
+- Mailchimp intergration
+- Download info
 - Custom invoice
 - Product emails
-- Customer files
+
 
 
 ## System Requirements
