@@ -1,4 +1,4 @@
-# DuckSell
+# DuckSell [deprecated/archived]
 
 [![Build Status](https://travis-ci.org/interactive32/ducksell.svg?branch=master)](https://travis-ci.org/interactive32/ducksell)
 
